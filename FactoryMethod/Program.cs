@@ -4,6 +4,10 @@ public class Program
 {
     static void Main(string[] args)
     {
+
+        Console.WriteLine("\nHá Muito Tempo, Numa Galáxia Muito, Muito Distante...");
+        Console.ReadLine();
+        Console.Clear();
         // Criando um Jedi - Anakin Skywalker
         // Criando uma fábrica específica para um Jedi com os detalhes do personagem
         StarWarsCharacterFactory anakinFactory = new JediFactory("Anakin Skywalker", "Luz", "Tatooine", "Azul");

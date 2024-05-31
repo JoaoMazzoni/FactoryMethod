@@ -19,7 +19,7 @@ namespace FactoryMethod
             this.sabreDeLuz = sabreDeLuz;
         }
 
-        // Implementação do método abstrato CreateCharacter() da classe base StarWarsCharacterFactory.
+        // Implementação do método abstrato CreateCharacter() da classe base StarWarsC haracterFactory.
         // Este método cria e retorna uma instância de Sith com os detalhes fornecidos.
         // O Factory Method retorna uma instância de Sith, uma classe que implementa a interface IStarWarsCharacter.
         public override IStarWarsCharacter CreateCharacter()

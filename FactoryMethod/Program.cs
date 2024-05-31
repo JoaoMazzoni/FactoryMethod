@@ -1,5 +1,7 @@
 ﻿using FactoryMethod;
 
+// O Factory Method (Método Fábrica) é um Design Pattern que fornece uma interface e um método para criar objetos em uma superclasse, 
+// e permite que suas subclasses alternem o tipo de objetos que serão criados.
 public class Program
 {
     static void Main(string[] args)

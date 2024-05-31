@@ -33,14 +33,14 @@ namespace FactoryMethod
         // Esse método imprime uma frase típica de um Sith.
         public void Falar()
         {
-            Console.WriteLine("\nFalar: O lado negro da Força é um caminho para muitas habilidades que alguns consideram não - naturais");
+            Console.WriteLine("\nFalar: O lado negro da Força é um caminho para muitas habilidades que alguns consideram não - naturais.");
         }
 
         // Implementação do método UsarForca() da interface IStarWarsCharacter.
         // Esse método simula o uso da Força por um Sith.
         public void UsarForca()
         {
-            Console.WriteLine("Força: Usando o lado negro da Força!\n");
+            Console.WriteLine("Força: *Usando o lado negro da Força*\n");
         }
 
         // Implementação do método LigarSabre() da interface IStarWarsCharacter.

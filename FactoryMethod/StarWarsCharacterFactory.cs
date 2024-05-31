@@ -5,12 +5,15 @@
 
 namespace FactoryMethod
 {
+
     // Classe abstrata que define um método fábrica para criar personagens de Star Wars.
     public abstract class StarWarsCharacterFactory
     {
-        // Factory Method - Método Fábrica.
-        public abstract IStarWarsCharacter CreateCharacter();
+
+        public abstract IStarWarsCharacter CreateCharacter(); // Factory Method - Método Fábrica.
+
         // Permite que o objeto chame os métodos da interface IStarWarsCharacter sem precisar conhecer a implementação específica do personagem.
     }
+
 }
 

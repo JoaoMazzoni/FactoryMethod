@@ -8,15 +8,16 @@ public class Program
         Console.WriteLine("\nHá Muito Tempo, Numa Galáxia Muito, Muito Distante...");
         Console.ReadLine();
         Console.Clear();
-        // Criando um Jedi - Anakin Skywalker
-        // Criando uma fábrica específica para um Jedi com os detalhes do personagem
+
+        // Criando/Fabricando um Jedi - Anakin Skywalker
+        // "Configurando" uma fábricação específica para um Jedi com os detalhes do personagem desejado (Anakin Skywalker)
         StarWarsCharacterFactory anakinFactory = new JediFactory("Anakin Skywalker", "Luz", "Tatooine", "Azul");
         // A variável anakinFactory é do tipo StarWarsCharacterFactory, que é a classe/fábrica base.
         // Como JediFactory é uma subclasse de StarWarsCharacterFactory, é possível atribuir uma instância de JediFactory a anakinFactory.
 
         // Usando a fábrica para criar um personagem(objeto) Jedi
         // Acesso a interface IStarWarsCharacter
-        IStarWarsCharacter anakin = anakinFactory.CreateCharacter(); //Acessa o método da classe/fábrica correspondente                                                             (JediFactory)
+        IStarWarsCharacter anakin = anakinFactory.CreateCharacter(); //Acessa o método da classe/fábrica correspondente                                                                                                                                     (JediFactory)
 
         // Exibindo informações e comportamento do personagem Jedi
         anakin.DescreverPersonagem();

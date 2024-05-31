@@ -33,14 +33,14 @@ namespace FactoryMethod
         // Esse método imprime uma frase típica de um Jedi.
         public void Falar()
         {
-            Console.WriteLine("\nFalar: Que a força esteja com você");
+            Console.WriteLine("\nFalar: Que a força esteja com você!");
         }
 
         // Implementação do método UsarForca() da interface IStarWarsCharacter.
         // Esse método simula o uso da Força por um Jedi.
         public void UsarForca()
         {
-            Console.WriteLine("Força: Usando o lado luz da força!\n");
+            Console.WriteLine("Força: *Usando o lado luz da força*\n");
         }
 
         // Implementação do método LigarSabre() da interface IStarWarsCharacter.
